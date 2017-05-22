@@ -1,13 +1,22 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
 <head>
 	<title>My Portfolio</title>
+<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<header>
 
+
+	<header>
+	
 		<div class="nav">
-			<h1>Tyler Frega</h1>
+			<div id="logo">
+				<h1 id="name">Tyler Frega</h1>
+			</div>
 			<ul>
 				<li>About</li>
 				<li>Portfolio</li>
@@ -17,21 +26,28 @@
 
 	</header>
 
+<div class="content">
 
-	<div class= "about">
+	<div class= "main">
 
 		<h1>About Me</h1>
 
-			<image src = "assets/images/cat.jpg" alt="cat" height = "200" width="200">
 
-			<p>This is some text about me. I will finish this later becuase I dont feel like thinking of stuff to say</p>
+			<image class="img" src ="assets/images/cat.jpg" alt="cat" height = "180" width="200">
+
+			<div clss="float">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+				<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+			</div>
+
 
 	</div>
 
 
 	<div class="connect">
 
-		<h2>Connect wit Me</h2>
+		<h2>Connect with Me</h2>
 
 			<image src="assets/images/git.png" alt="git logo" height="60" width="60">
 			<image src="assets/images/stack.png" alt="stack overflow logo" height="60" width="60">
@@ -39,10 +55,14 @@
 
 	</div>
 
+</div>
+
 
 
 	<footer>
 		<p>Copyright Tyler Frega 2016</p>
+
+
 
 	</footer>
 
