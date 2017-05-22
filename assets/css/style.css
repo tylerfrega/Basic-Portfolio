@@ -146,10 +146,39 @@ ul  {
 }
 
 li {
-	
+
 	display: inline-block;
 	list-style-type: none;
 	padding-right: 10px;
 }
 
 
+input {
+	width: 90%;
+	margin-top: 10px;
+	color:#ecebec;
+
+}
+
+
+#form {
+
+	height:500px;
+}
+
+
+#submit {
+	width: 100px;
+	height:30px;
+	background-color: #4aaaa5 ;
+	border: none;
+	color:white;
+	margin-top:0px;
+
+}
+
+textarea{
+	color:#ecebec;
+
+
+}
