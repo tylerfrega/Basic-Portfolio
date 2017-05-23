@@ -1,6 +1,8 @@
 body {
 
-	background-image: url("../images/background.png");
+
+	background-image: url("../images/background.PNG");
+
 	margin:0;
 	color: #777777;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
@@ -204,7 +206,7 @@ input {
 #portfolio {
 
 	height:775px;
-	width:600px;
+	width:650px;
 	margin-bottom: 10px;
 	padding-left:25px;
 	left:273px;
@@ -225,18 +227,19 @@ input {
 
 .banner {
 
-	width:100%;
+	width:250px;
 	height:45px;
 	margin:0;
 	background-color:  #4aaaa5;
 	text-align:center;
 	margin-right:0px;
 	position: absolute;
-	left:10px;
+	left:30px;
 	top:140px;
 	color:white;
 	font-family: times new roman;
 	padding-top: 10px;
+	padding-left:0px;
 	font-size: 20px;
 
 }
@@ -245,13 +248,15 @@ input {
 
 .image {
 
-position:relative;
-width:250px;
-height:200px;
-margin-right: 0px;
-float:left;
-margin: 10px;
+	position:relative;
+	width:250px;
+	height:200px;
+	margin-right: 0px;
+	float:left;
+	margin: 10px;
+	padding-left: 20px
 	
 }
+
 
 
